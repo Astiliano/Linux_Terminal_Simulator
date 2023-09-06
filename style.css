@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#terminal {
+  padding-left: 5px; /* Add 5px padding to the left */
+  background-color: #000;
+  color: #fff;
+  width: 1000px;  /* increased from 800px */
+  height: 600px;  /* increased from 400px */
+  overflow-y: scroll;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.command-line {
+  padding-left: 5px; /* Add 5px padding to the left */
+  margin-bottom: 5px; /* Add spacing between lines */
+}
+
+
+.terminal-output div {
+  margin-bottom: 5px;  /* spacing between lines */
+}
+
+.prompt {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.commandInput {
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-family: Arial, sans-serif;  /* Explicitly set the font family */
+}
